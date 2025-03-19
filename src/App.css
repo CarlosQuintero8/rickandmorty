@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'GetSchwifty';
+	src: url('./assets/fonts/get_schwifty.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.app-title {
+	text-align: center;
+	font-size: 3em;
+	color: #1dd61d;
+	margin-bottom: 2px;
+	font-family: 'GetSchwifty', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.app-title:hover {
+	color: #ffffff;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.app-title {
+	animation: fadeIn 1s ease;
+}
+
+.app-title {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.contenedor-search {
+	position: relative;
+}
+
+.contenedor-residents {
+	position: relative;
+}

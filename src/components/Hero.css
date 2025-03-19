@@ -1,0 +1,15 @@
+.hero {
+	background-image: url('/rickandmorty2.gif');
+	width: 100%;
+	height: 30dvh;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+@media (min-width: 768px) {
+	.hero {
+		height: 50vh;
+	}
+}

@@ -1,0 +1,13 @@
+.residents {
+	padding: 2em 1em;
+	max-width: 1024px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-rows: auto auto;
+	gap: 20px;
+}
+
+h2 {
+	color: #d6d6d6;
+}

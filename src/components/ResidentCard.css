@@ -1,0 +1,62 @@
+.resident__card {
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 0 10px 0 #44b844;
+	background-color: #01181b;
+}
+
+.resident__img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.resident__header {
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+.resident__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.resident__status {
+	position: absolute;
+	top: 2em;
+	left: 0;
+	background-color: #000000;
+	padding: 0.5em 1em;
+	border-radius: 0 8px 8px 0;
+	color: white;
+}
+
+.resident__body {
+	padding: 1em 1.5em;
+}
+
+.resident__name {
+	border-bottom: 1px solid #999;
+	margin: 0;
+	padding-bottom: 0.75em;
+	margin-bottom: 0.75em;
+	color: #ffffff;
+}
+
+.resident__info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	color: #d6d6d6;
+}
+
+.resident__item {
+	color: #f5f5f5 text-transform capitalize;
+}
+
+.resident__span {
+	color: #ffffff;
+	font-weight: bold;
+}
