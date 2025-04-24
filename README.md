@@ -1,12 +1,68 @@
-# React + Vite
+Explorador de Personajes de Rick and Morty 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El Explorador de Personajes de Rick and Morty es una aplicación web que permite explorar y buscar personajes de la serie Rick and Morty. Desarrollada con React y utilizando la API de Rick and Morty, ofrece una interfaz responsiva e interactiva para descubrir detalles como nombres, especies, estado y orígenes, con funciones de búsqueda y filtrado dinámicas. 🌌
 
-Currently, two official plugins are available:
+Características ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+🔎 Búsqueda de Personajes: Busca personajes por nombre con resultados instantáneos mientras escribes.
+
+
+
+📋 Navegación de Personajes: Lista paginada de personajes con imágenes y detalles clave desde la API.
+
+
+
+🧪 Filtros Personalizados: Filtra por estado (vivo, muerto, desconocido) y especie para explorar a tu manera.
+
+
+
+📱 Diseño Responsivo: Interfaz adaptable a móviles y escritorios para una experiencia fluida.
+
+
+
+⚡ Interfaz Dinámica: Transiciones suaves y actualizaciones en tiempo real para búsqueda y filtrado.
+
+
+
+🚨 Manejo de Errores: Mensajes claros para búsquedas inválidas o errores de API, mejorando la usabilidad.
+
+
+Tecnologías Utilizadas 🛠️
+
+
+
+
+
+⚛️ React: Librería para una interfaz de usuario dinámica e interactiva.
+
+
+
+🔥 Vite: Herramienta de construcción rápida con recarga en caliente.
+
+
+
+📜 JavaScript (ES6): Lógica principal e interacciones con la API.
+
+
+
+🌐 API de Rick and Morty: Datos de personajes en tiempo real.
+
+
+
+📡 Axios: Cliente HTTP para solicitudes a la API.
+
+
+
+🎨 CSS3: Estilos responsivos, animaciones y diseño visual.
+
+
+
+🏗️ HTML5: Estructura de la aplicación.
+
+
+
+☁️ Netlify: Plataforma para alojar la aplicación en vivo.
